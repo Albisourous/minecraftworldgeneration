@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
+    <title>WebGL - Minecraft</title>
+    <script>
+      window.addEventListener("load", () => {
+        glCanvas.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        glCanvas.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;   
+      });
+      window.addEventListener("resize", () => {
+        glCanvas.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        glCanvas.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
+      });
+    </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+  
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="glCanvas" class="card" width="1920" height="1080"> Your browser does not support HTML5 </canvas>
+    </div>
+    <div id="crosshairH" class="cross"></div>
+    <div id="crosshairV" class="cross"></div>
+    <br />
+
+    <script type="module" src="./index.js"></script>
+    <br />
+  </body>
+</html>

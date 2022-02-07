@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "tsBuildInfoFile": ".tsBuildInfo",
+        "allowJs": true,
+        "module": "ES6",
+        "target": "ES6",
+        "outDir": "dist",
+        "sourceMap": true,
+        "alwaysStrict":true,
+        "lib":  [ "es2019", "DOM", "ES6" ,"DOM.Iterable", "ScriptHost"]
+    },
+    "include": [ "./src/minecraft/*.ts", "src/lib/vue/vue.js", "src/lib/threejs/examples/jsm/loaders/*.js", "src/minecraft/World/Chunk.ts", "src/minecraft/World/World.ts", "src/minecraft/World/PerlinNoise.ts", "src/minecraft/World/WorldGen.ts", "src/minecraft/World/Block.ts", "src/minecraft/World/Player.ts", "src/minecraft/World/Textures.ts"],
+    "watchOptions": {
+        // Use native file system events for files and directories
+        "watchFile": "useFsEvents",
+        "watchDirectory": "useFsEvents",
+        // Poll files for updates more frequently
+        // when they're updated a lot.
+        "fallbackPolling": "dynamicPriority"
+    }
+}
