@@ -1,4 +1,4 @@
-# Minecraft Peridynamics
+# Computer Graphics Honors Final Project: Minecraft Peridynamics
 
 A Minecraft-like project exploring world generation using WebGL.
 
@@ -72,8 +72,6 @@ A7: Working trees along with a nice noise algorithm.
 A8: Player gravity implemented as well as a buggy day/night cycle that would reset from back to light blue rather than the gradient. A9: Fixed day-night cycle, made chunk loading smoother, made project look nice, fixed controls, etc.
 
 <img src="https://github.com/Albisourous/minecraftworldgeneration/blob/main/artifacts/A9.png" alt="lock" width="250"/>
-
-# Computer Graphics Honors Final Project: Minecraft
 
 ## Goals
 Our team decided to create a lightweight Minecraft replica through the use of Perlin Noise for terrain generation. The real scope of Minecraft is extremely vast, so we made sure to keep the goals of our project limited. Our main goals were to create a chunk-based terrain generator with smooth gradients; “Minecraft-Esque” features such as biomes, block placement, etc. were relegated to the “if-time” category, and unfortunately, we weren’t able to achieve those in the time allotted. Initially, we felt quite ambitious; we not only wanted to recreate a Minecraft-Esque world using WebGL, but also a maze generation system with a proper entrance and exit, with a labyrinthian atmosphere. Although we were unable to achieve our maze generation goal, we are satisfied with our current Minecraft world based on the amount of time we worked on the project. The main algorithms we worked on involved block generation, chunk generation, block-face culling, chunk replacement, Perlin noise generation, and a day-night cycle.
